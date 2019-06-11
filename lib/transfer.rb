@@ -31,7 +31,7 @@ class Transfer
   end
 
   def reverse_transfer
-    
+    status = "reversed"
   end
 
 end
