@@ -22,10 +22,10 @@ class Transfer
     self.sender.balance -= amount
     self.receiver.deposit(amount)
     self.status = "complete"
- binding.pry
-  # else
-  #     puts "Transaction rejected. Please check your account balance."
-  #   self.status = "rejected"
+ 
+  else
+      puts "Transaction rejected. Please check your account balance."
+    self.status = "rejected"
       
     end
   end
